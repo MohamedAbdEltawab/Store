@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/myrect"
+    android:elevation="5dp" >
+
+    <ImageView
+        android:id="@id/iv_item_image"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceListItemSmall"
+            />
+        <TextView
+            android:id="@id/tv_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+/>
+    </LinearLayout>
+    <TextView
+        android:id="@id/tv_product_quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@id/btn_sale"
+        android:text="@string/sale"
+        android:textAllCaps="false"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textColor="#FFF"
+        android:layout_gravity="center"
+        android:elevation="20dp"
+
+        android:background="@drawable/button"/>
+        <!--android:background="#ec6a07  56d91e"-->
+
+
+</LinearLayout>

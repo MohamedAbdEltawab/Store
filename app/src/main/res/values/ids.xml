@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_product_name" type="id" />
+    <item name="tv_product_price" type="id" />
+    <item name="tv_product_quantity" type="id" />
+    <item name="rc_products_list" type="id" />
+    <item name="insert_dummy_data" type="id" />
+    <item name="delete_all_data" type="id" />
+    <item name="ed_name" type="id" />
+    <item name="ed_price" type="id" />
+    <item name="ed_quantity" type="id" />
+    <item name="ed_supplier_name" type="id" />
+    <item name="ed_supplier_phone" type="id" />
+    <item name="ed_supplier_email" type="id" />
+    <item name="iv_item_image" type="id" />
+    <item name="emp_recycler" type="id" />
+    <item name="btn_decrease" type="id" />
+    <item name="btn_increase" type="id" />
+    <item name="order_more" type="id" />
+    <item name="delete_item" type="id" />
+    <item name="menu_search_view" type="id" />
+    <item name="btn_save" type="id" />
+    <item name="btn_sale" type="id" />
+</resources>

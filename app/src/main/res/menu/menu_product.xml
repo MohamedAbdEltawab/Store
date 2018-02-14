@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/btn_save"
+        android:title="@string/save_product"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@id/order_more"
+        android:orderInCategory="0"
+        android:title="@string/order_more"
+        app:showAsAction="never" />
+    <item
+        android:id="@id/delete_item"
+        android:title="@string/delete_item"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        />
+
+</menu>
